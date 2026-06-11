@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon 360 | Full-Service Beauty Salon in Orange, CA</title>
+    <meta name="description" content="Salon 360 - Orange's premier full-service beauty salon. Haircuts, color, balayage, keratin, nails, facials & more. 20% OFF first visit. Call (714) 538-0360 to book.">
+    <meta name="keywords" content="salon Orange CA, hair salon, balayage, highlights, keratin treatment, nail salon, facial, waxing, beauty salon Orange, Salon 360">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:7145380360">(714) 538-0360</a>
+                </span>
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    2738 E Chapman Ave, Orange, CA
+                </span>
+            </div>
+            <div class="top-bar-right">
+                <span class="top-bar-item">Tue-Sat: 9AM-7PM | Sun: 10AM-5PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">360</span>
+                <div class="logo-text">
+                    <span class="logo-name">Salon 360</span>
+                    <span class="logo-tagline">Full-Service Beauty. Stunning Results.</span>
+                </div>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services" data-section="services">Services</a></li>
+                <li><a href="#why-us" data-section="why-us">Why Us</a></li>
+                <li><a href="#reviews" data-section="reviews">Reviews</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-cta" data-section="contact">Book Appointment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-badge">200+ Five-Star Reviews on Yelp</div>
+            <h1>Your Best Look Starts Here.<br><span class="highlight">Transform. Glow. Shine.</span></h1>
+            <p class="hero-sub">Orange's go-to full-service salon for hair, nails, skin, and everything beautiful. Our expert stylists bring your vision to life with precision, care, and the latest techniques. Walk in feeling good. Walk out looking absolutely stunning.</p>
+            <div class="hero-ctas">
+                <a href="tel:7145380360" class="btn btn-primary btn-lg btn-pulse">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Book Now: (714) 538-0360
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Book Appointment Online</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <div class="trust-score">4.5</div>
+                    <div class="trust-label">Yelp Rating<br><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span></div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="200">200+</div>
+                    <div class="trust-label">5-Star<br>Reviews</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="15">15+</div>
+                    <div class="trust-label">Years of<br>Experience</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">8+</div>
+                    <div class="trust-label">Services<br>Under One Roof</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Banner -->
+    <section class="urgency-banner" id="urgency-banner">
+        <div class="container">
+            <div class="urgency-content">
+                <div class="urgency-text">
+                    <span class="urgency-label">NEW CLIENT SPECIAL</span>
+                    <strong>20% OFF</strong> your first visit. Mention this website when you book. Limited time offer!
+                </div>
+                <a href="tel:7145380360" class="btn btn-white">Claim Offer Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>Complete Beauty Services<br>Under One Roof</h2>
+                <p>From a fresh haircut to a total transformation, Salon 360 does it all. Our talented team stays on top of the latest trends so you always leave looking and feeling your absolute best.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3>Haircuts & Styling</h3>
+                    <p>Precision cuts for every texture and length. Whether you want a bold new look or a subtle refresh, our stylists listen first and cut second. You will love the result, guaranteed.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <h3>Color & Highlights</h3>
+                    <p>Vibrant, dimensional color that turns heads. From subtle highlights to bold all-over color, we use premium products that keep your hair healthy and the color lasting longer.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17c3-3 6-3 9 0s6 3 9 0"/><path d="M3 11c3-3 6-3 9 0s6 3 9 0"/><path d="M3 5c3-3 6-3 9 0s6 3 9 0"/></svg>
+                    </div>
+                    <h3>Balayage & Ombre</h3>
+                    <p>The hottest color techniques done right. Sun-kissed, natural-looking dimension that grows out beautifully. No harsh lines, no brassiness. Just gorgeous, effortless color.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Keratin Treatments</h3>
+                    <p>Smooth, frizz-free hair that lasts for months. Our keratin treatments repair damage while locking in shine and silkiness. Cut your styling time in half every morning.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+                    </div>
+                    <h3>Blowouts & Updos</h3>
+                    <p>Picture-perfect hair for every occasion. Bouncy blowouts for everyday glamour or elegant updos for weddings, proms, and special events. You will feel like a star.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                    </div>
+                    <h3>Waxing & Threading</h3>
+                    <p>Smooth, precise hair removal with minimal discomfort. From brows to full body, our specialists use gentle techniques and quality waxes for clean, lasting results.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3>Nail Services</h3>
+                    <p>Flawless manicures and pedicures in a clean, relaxing environment. Choose from classic, gel, or intricate nail art. Your hands and feet deserve this level of care.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+                    </div>
+                    <h3>Facial Treatments</h3>
+                    <p>Reveal your best skin ever. Our facials target acne, aging, dryness, and dullness with professional-grade products. Walk out with a radiant, healthy glow you can see and feel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag">Why Salon 360?</span>
+                    <h2>Not Just a Salon. Your Beauty Destination.</h2>
+                    <p>Most salons rush you through. At Salon 360, we take the time to understand your style, your lifestyle, and your goals. Every visit is a personalized experience designed to make you look and feel amazing. That is why our clients keep coming back.</p>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Skilled, Experienced Stylists</strong>
+                                <p>Our team brings years of training and real-world experience. We stay current with trends and techniques through ongoing education so you always get the best.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Clean, Relaxing Atmosphere</strong>
+                                <p>We maintain the highest standards of cleanliness and hygiene. Our salon is your escape. Relax, unwind, and let us pamper you while we work our magic.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Premium Products Only</strong>
+                                <p>We never cut corners on products. From color to treatments, we use salon-grade brands that protect and nourish your hair and skin. Quality you can feel.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Free Consultations</strong>
+                                <p>Not sure what you want? That is perfectly okay. We offer complimentary consultations to discuss your look, answer your questions, and build a plan together.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-visual">
+                    <div class="stats-card">
+                        <div class="stats-number" data-count="200">200+</div>
+                        <div class="stats-label">5-Star Yelp Reviews</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="15">15+</div>
+                        <div class="stats-label">Years Serving Orange</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="5000">5,000+</div>
+                        <div class="stats-label">Happy Clients Served</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="8">8+</div>
+                        <div class="stats-label">Services Offered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Client Reviews</span>
+                <h2>Don't Take Our Word For It.<br>See What Our Clients Say.</h2>
+                <p>Real reviews from real clients. No filtering, no cherry-picking. Just honest feedback from people who trust us with their look.</p>
+            </div>
+            <div class="reviews-grid" id="reviewsGrid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I have been coming to Salon 360 for over 3 years now and I will never go anywhere else. My stylist always knows exactly what I want, even when I can't explain it well. The color always comes out perfect."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Featured Review on Yelp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Got my first balayage here and I am obsessed! The stylist took the time to really understand the look I was going for. The result was natural and gorgeous. Best salon experience I have ever had."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Verified Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Super clean salon with the nicest staff. I got a haircut, facial, and nails done all in one visit. Talk about being pampered! I left feeling like a completely new person. Highly recommend."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Maria T., Regular Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"My keratin treatment here was a game changer. My hair has never been this smooth and manageable. They explained the whole process and aftercare thoroughly. Professional and caring team."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Sarah K., First-Time Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I brought my daughter here for her prom updo and she looked absolutely stunning. The stylist was patient and made sure every detail was perfect. She felt like a princess. Thank you Salon 360!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>5-Star Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I have tried many salons in Orange County and Salon 360 is by far the best. The prices are fair, the service is exceptional, and the results speak for themselves. I am a client for life."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Jennifer L., Long-Time Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <p>Join 200+ happy clients. Experience the Salon 360 difference today.</p>
+                <a href="tel:7145380360" class="btn btn-primary">Book Now: (714) 538-0360</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About Salon 360</span>
+                    <h2>Where Beauty Meets Expertise.<br>Your Look Is Our Passion.</h2>
+                    <p>Salon 360 has been a cornerstone of the Orange, CA beauty community for over 15 years. We started with a simple belief: every person deserves to feel beautiful, confident, and cared for. That belief drives everything we do, from the moment you walk through our door to the final reveal in the mirror.</p>
+                    <p>Our team of skilled stylists and beauty professionals brings a wealth of experience and genuine passion to every appointment. We invest in ongoing education, premium products, and a spotlessly clean environment because you deserve nothing less than the best.</p>
+                    <p>Whether you need a quick trim, a complete color transformation, or a relaxing facial, Salon 360 is your one-stop destination. We listen, we consult, and we deliver results that exceed expectations. Your satisfaction is not just our goal. It is our standard.</p>
+                    <div class="trust-badges">
+                        <span class="trust-badge">Full-Service Salon</span>
+                        <span class="trust-badge">Premium Products</span>
+                        <span class="trust-badge">Serving Since 2008</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Expert Stylists</h4>
+                        <p>Our team brings years of professional training and hands-on experience. Each stylist specializes in different techniques, ensuring you get the perfect match for your style goals every time.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Hygiene First</h4>
+                        <p>We follow strict sanitization protocols for every tool, station, and surface. Your health and safety are our top priorities. Relax knowing you are in a clean, professional environment.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Satisfaction Guaranteed</h4>
+                        <p>We stand behind our work. If you are not completely happy with your service, let us know within 48 hours and we will make it right. Your confidence in us matters above all else.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Your Best Look Is Just One Appointment Away.<br>Don't Wait to Feel Amazing.</h2>
+                <p>Life is too short for bad hair days. Book your appointment today and let our expert team give you the look you have been dreaming of. You deserve this.</p>
+                <div class="cta-buttons">
+                    <a href="tel:7145380360" class="btn btn-primary btn-lg btn-pulse">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Book Now: (714) 538-0360
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Request an Appointment</a>
+                </div>
+                <p class="cta-note">Mention this website for <strong>20% OFF</strong> your first visit!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Book Your Appointment Today</h2>
+                    <p>Walk-ins are welcome when available, but appointments guarantee your preferred time and stylist. Call us or fill out the form and we will get back to you within the hour during business hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:7145380360">(714) 538-0360</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <strong>Address</strong>
+                                <span>2738 E Chapman Ave<br>Orange, CA 92869</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Tue-Sat: 9:00 AM - 7:00 PM<br>Sun: 10:00 AM - 5:00 PM<br>Mon: Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Request an Appointment</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(714) 555-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="jane@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="haircuts">Haircuts & Styling</option>
+                                <option value="color">Color & Highlights</option>
+                                <option value="balayage">Balayage & Ombre</option>
+                                <option value="keratin">Keratin Treatments</option>
+                                <option value="blowouts">Blowouts & Updos</option>
+                                <option value="waxing">Waxing & Threading</option>
+                                <option value="nails">Nail Services</option>
+                                <option value="facials">Facial Treatments</option>
+                                <option value="other">Other / General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="stylist">Preferred Stylist</label>
+                                <input type="text" id="stylist" name="stylist" placeholder="No preference or stylist name">
+                            </div>
+                            <div class="form-group">
+                                <label for="datetime">Preferred Date/Time</label>
+                                <input type="text" id="datetime" name="datetime" placeholder="e.g. Sat 2/15 at 10am">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests or Notes</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Tell us about the look you want, any allergies, or special requests..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Book My Appointment</button>
+                        <p class="form-note">We will confirm your appointment within 1 hour during business hours.</p>
+                    </form>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.5!2d-117.8311!3d33.7877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd0e3c8e8e8e8%3A0x123456789!2s2738+E+Chapman+Ave+Orange+CA!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">360</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Salon 360</span>
+                            <span class="logo-tagline">Full-Service Beauty. Stunning Results.</span>
+                        </div>
+                    </div>
+                    <p>Orange's premier full-service beauty salon for over 15 years. Skilled stylists, premium products, and a relaxing experience every visit.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Salon 360</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Book Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Haircuts & Styling</a></li>
+                        <li><a href="#services">Color & Highlights</a></li>
+                        <li><a href="#services">Balayage & Ombre</a></li>
+                        <li><a href="#services">Keratin Treatments</a></li>
+                        <li><a href="#services">Facial Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:7145380360">(714) 538-0360</a></p>
+                    <p>2738 E Chapman Ave<br>Orange, CA 92869</p>
+                    <p>Tue-Sat: 9AM - 7PM<br>Sun: 10AM - 5PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Salon 360. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA -->
+    <div class="mobile-cta" id="mobileCta">
+        <a href="tel:7145380360" class="btn btn-primary btn-full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Book Now: (714) 538-0360
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
